@@ -1,6 +1,6 @@
 # TaskManagerPro 
 
-##Description
+Description
 A full-stack task management system built with React, Express, and MongoDB. Users can create, update, delete, and filter tasks based on their status (Pending, Completed). This project is designed to help users manage tasks efficiently through a user-friendly interface and secure backend.
 
 
