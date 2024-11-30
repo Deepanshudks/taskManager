@@ -45,7 +45,7 @@ Change the VITE_URL as per your backend url
 cd .\backend\
 npm install
 ```
-# Run backend only
+# Run backend only (:3000)
 ```
 node .\index.js
 ```
@@ -57,7 +57,7 @@ npm install
 ```
 ### Run
 
-# Run frontend (:5173) & backend (:3000)
+# Run frontend (:5173)
 ```
 npm run dev
 ```
