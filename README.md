@@ -20,7 +20,7 @@ A full-stack task management system built with React, Express, and MongoDB. User
 
 ### Env Variables
   
-Create a `.env file` in backend and add the following
+- Create a `.env file` in backend and add the following
 
 ```
 JWT_SECRET = "JwtSecret"
@@ -28,7 +28,7 @@ MONGO_URL = "mongodb://localhost:27017/Task"
 ```
 Change the JWT_SECRET to what you want
 
-Update `.env file` in frontend and add the following
+- Update `.env file` in frontend and add the following
 
 ```
 VITE_URL = "http://localhost:3000" 
