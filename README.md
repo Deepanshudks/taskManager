@@ -27,6 +27,7 @@ JWT_SECRET = "JwtSecret"
 MONGO_URL = "mongodb://localhost:27017/Task"
 ```
 Change the JWT_SECRET to what you want.
+
 Change the MONGO_URL according to yours.
 
 - Update `.env file` in frontend and add the following
