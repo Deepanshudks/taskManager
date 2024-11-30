@@ -3,7 +3,6 @@
 #Description
 A full-stack task management system built with React, Express, and MongoDB. Users can create, update, delete, and filter tasks based on their status (Pending, Completed). This project is designed to help users manage tasks efficiently through a user-friendly interface and secure backend.
 
-<img src="./frontend/public/screen.png" />
 
  It includes the following:
 
@@ -26,7 +25,7 @@ Create a `.env file` in backend and add the following
 
 ```
 JWT_SECRET = "JwtSecret"
-MONGO_URL = "mongodb://localhost:27017/Task-Management"
+MONGO_URL = "mongodb://localhost:27017/Task"
 ```
 Change the JWT_SECRET to what you want
 
