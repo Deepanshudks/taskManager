@@ -52,9 +52,9 @@ cd .\frontend\
 npm install
 ```
 ### Run
+# Run backend only
+node .\index.js
 
 # Run frontend (:5173) & backend (:3000)
 npm run dev
 
-# Run backend only
-node .\index.js
