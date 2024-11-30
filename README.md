@@ -30,7 +30,7 @@ MONGO_URL = "mongodb://localhost:27017/Task-Management"
 ```
 Change the JWT_SECRET to what you want
 
-Create a `.env file` in frontend and add the following
+Update `.env file` in frontend and add the following
 
 ```
 VITE_URL = "http://localhost:3000" 
