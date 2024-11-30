@@ -17,7 +17,7 @@ const Signin = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post("http://localhost:3000/signin", {
+      const response = await axios.post(`${import.meta.env.VITE_URL}/signin`, {
         username,
         password,
       });

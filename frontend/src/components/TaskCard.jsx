@@ -26,7 +26,7 @@ const TaskCard = ({
       setflag((prev)=>!prev)
   }
   useEffect(()=>{
-      axios.put(`http://localhost:3000/completed/${id}`,{
+      axios.put(`${import.meta.env.VITE_URL}/completed/${id}`,{
         completed : isCompleted
       },{
         headers:{

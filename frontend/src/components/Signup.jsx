@@ -22,7 +22,7 @@ const Signup = () => {
 
     setLoading(true);
     try {
-      await axios.post("http://localhost:3000/signup", { username, password }).then(res=>{
+      await axios.post(`${import.meta.env.VITE_URL}/signup`, { username, password }).then(res=>{
         localStorage.setItem("token", res.data.token);
         setLoading(false);
       toast.success("Signup successful")
